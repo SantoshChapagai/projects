@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Insurance Calculation</title>
+</head>
+
+<body>
+  <form>
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name">
+    </div>
+    <div>
+      <h3>Choose your age</h3>
+      <input type="radio" name="age" value="Below 18" id="child">
+      <label for="child">Below 18</label>
+      <input type="radio" name="age" value="between 18 and 25" id="younger">
+      <label for="younger">18-25</label>
+      <input type="radio" name="age" value="between 26 and 35" id="young">
+      <label for="young">26-35</label>
+      <input type="radio" name="age" value="between 36 and 45" id="mid_age">
+      <label for="mid_age">36-45</label>
+      <input type="radio" name="age" value="between 46 and 55" id="upper_mid_age">
+      <label for="upper_mid_age">46-55</label>
+      <input type="radio" name="age" value="between 56 and 65" id="over_fifty">
+      <label for="over_fifty">56-65</label>
+      <input type="radio" name="age" value="over 65" id="old">
+      <label for="old">66 and over</label>
+    </div>
+    <div>
+      <h3>Please select your current health conditions</h3>
+      <input type="checkbox" name="health" id="hypertension" value="hypertension">
+      <label for="hypertension">Hypertension</label>
+      <input type="checkbox" name="health" id="diabities" value="diabities">
+      <label for="diabities">Diabities</label>
+      <input type="checkbox" name="health" id="bloodsugar" value="bloodsugar">
+      <label for="bloodsugar">Blood sugar</label>
+      <input type="checkbox" name="health" id="Overweight" value="Overweight">
+      <label for="Overweight">Overweight</label>
+      <input type="checkbox" name="health" id="genetic" value="genetic">
+      <label for="genetic">Genetic diseases</label>
+      <input type="checkbox" name="health" id="others" value="others">
+      <label for="others">Others</label>
+    </div>
+    <div>
+      <h3>Good habits</h3>
+      <input type="checkbox" id="exercise" name="good_habits" value="exercise">
+      <label for="exercise">Exercise</label>
+      <input type="checkbox" id="wake_up" name="good_habits" value="wake up">
+      <label for="wake_up">Early wake up</label>
+      <input type="checkbox" id="balanced diet" name="good_habits" value="balanced">
+      <label for="balanced_diet">Balanced diet</label>
+    </div>
+    <div>
+      <h3>Bad habits</h3>
+      <input type="checkbox" name="bad_habits" id="smoke" value="smoke">
+      <label for="smoke">Smoke</label>
+      <input type="checkbox" name="bad_habits" id="drugs" value="drugs">
+      <label for="drugs">Drugs</label>
+      <input type="checkbox" name="bad_habits" id="alcohol" value="alcohol">
+      <label for="alcohol">Alcohol</label>
+      <input type="checkbox" name="bad_habits" id="others_second" value="others_second">
+      <label for="others_second">Others</label>
+    </div>
+    <div>
+      <button type="submit">Check</button>
+    </div>
+
+  </form>
+  <div id="input">
+    <p>Name: <span id="input_name"></span></p>
+    <p>Age: <span id="input_age"></span></p>
+    <p>Health conditions: <span id="input_health"></span></p>
+    <p>Good habits: <span id="input_good"></span></p>
+    <p>Bad habits: <span id="input_bad"></span></p>
+    <p>Total: <span id="input_total"></span></p>
+
+
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
