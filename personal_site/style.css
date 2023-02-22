@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  font-family: 'Gill Sans', sans-serif;
+  margin: 1rem;
+  background-color: rgb(213, 228, 235);
+}
+
+/* header section styling */
+header {
+  background-color: rgb(191, 191, 241);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* hero banner section styling */
+
+h1 {
+  padding: 8rem;
+  text-align: center;
+}
+
+#hero_banner {
+  background: url("https://images.unsplash.com/photo-1621682372775-533449e550ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW91bmF0aW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60") no-repeat center center/cover;
+}
+
+/* styling sections and images*/
+section {
+  margin: 1.5rem 0;
+  padding: 2rem;
+}
+
+img {
+  height: 20vh;
+  width: 20vw;
+}
+
+/* styling for the projects */
+#projects {
+  background-color: rgb(179, 223, 223);
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 0 0;
+}
+
+.work_category {
+  background-color: white;
+  padding: 1.5rem
+}
+
+/* styling for about me section */
+#about {
+  background-color: rgb(206, 224, 218);
+}
+
+.personal_information {
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* styling skills section */
+#skills {
+  background-color: rgb(206, 246, 246);
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 0 0;
+  padding: 0 1.2rem;
+}
+
+.skill_category {
+  background-color: rgb(218, 208, 208);
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  padding: 10px;
+}
+
+/* Progress bar styling */
+progress {
+  height: 15vh;
+  width: 15vw;
+}
+
+/* styling for education */
+#education {
+  background-color: rgb(161, 230, 231);
+}
+
+.study {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 0 0;
+}
+
+.school {
+  background-color: white;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+/* styling footer */
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
