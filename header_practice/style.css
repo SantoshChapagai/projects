@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 193, 144);
+}
+
+header {
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  padding: 8rem;
+  text-align: center;
+}
+
+#hero_banner {
+  background: url("https://media.istockphoto.com/id/1401781337/photo/hong-kong-geographical-park-in-sai-kung-hong-kong.jpg?b=1&s=170667a&w=0&k=20&c=Ppu1zPC6XL0iT9_0wzFxKy5GO5diE_ktVkXTqERrkBk=")no-repeat center center/cover;
+}
