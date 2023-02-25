@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fast Food</title>
+</head>
+
+<body>
+  <form>
+    <div class="personal_information">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+      </div>
+      <div>
+        <label for="address">Address</label>
+        <input type="text" id="address">
+      </div>
+    </div>
+    <div id="pizza">
+      <h2>Pizza</h2>
+      <div>
+        <input type="radio" name="size" value="one" id="size1">
+        <label for="size1">For small 5€</label>
+      </div>
+      <div>
+        <input type="radio" name="size" value="two" id="size2">
+        <label for="size2">For medium 7,50€</label>
+      </div>
+      <div>
+        <input type="radio" name="size" value="three" id="size3">
+        <label for="size3">For large 10€</label>
+      </div>
+    </div>
+    <div id="burger">
+      <h2>Burger</h2>
+      <div>
+        <input type="radio" name="portion" value="small" id="small">
+        <label for="small"> For small 3€</label>
+      </div>
+      <div>
+        <input type="radio" name="portion" value="medium" id="medium">
+        <label for="medium"> For medium 5€</label>
+      </div>
+      <div>
+        <input type="radio" name="portion" value="large" id="large">
+        <label for="large"> For large 8€</label>
+      </div>
+      <div id="fries">
+        <h2>French Fries</h2>
+        <div>
+          <input type="radio" name="sort" value="small pack" id="pack1">
+          <label for="pack1">For small pack 2€</label>
+        </div>
+        <div>
+          <input type="radio" name="sort" value="medium pack" id="pack2">
+          <label for="pack2">For medium pack 3,50€</label>
+        </div>
+        <div>
+          <input type="radio" name="sort" value="large pack" id="pack3">
+          <label for="pack3">For large pack 5€</label>
+        </div>
+      </div>
+      <div id="drinks">
+        <h2>Drinks</h2>
+        <div>
+          <input type="radio" name="drinks" Value="cola" id="cola">
+          <label for="cola">Coca cola 2,50€</label>
+        </div>
+        <div>
+          <input type="radio" name="drinks" Value="sprite" id="sprite">
+          <label for="sprite">Sprite 3€</label>
+        </div>
+        <div>
+          <input type="radio" name="drinks" Value="fanta" id="fanta">
+          <label for="fanta">Fanta 2€</label>
+        </div>
+      </div>
+      <div>
+        <h2>Delivery</h2>
+        <select name="delivery" id="delivery">
+          <option selected disabled value="empty">Select delivery method:</option>
+          <option value="home">Delivery to home 8€</option>
+          <option value="eat in">Eat in</option>
+          <option value="take away">Takeaway</option>
+        </select>
+      </div>
+    </div>
+  </form>
+  <div id="order">
+    <p>Name: <span id="order_name"></span></p>
+    <p>Address: <span id="order_address"></span></p>
+    <p>Pizza: <span id="order_pizza"></span></p>
+    <p>Burger: <span id="order_burger"></span></p>
+    <p>Fries: <span id="order_fries"></span></p>
+    <p>Drinks: <span id="order_drinks"></span></p>
+    <p>Delivery: <span id="order_delivery"></span></p>
+    <p>Total: <span id="order_price"></span></p>
+
+  </div>
+
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

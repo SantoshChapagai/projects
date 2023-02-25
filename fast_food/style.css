@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+form {
+  text-align: center;
+  margin: 1rem;
+}
+
+input {
+  margin: 0.2rem;
+}
+
+#order {
+  text-align: center;
+}
+
+#order p {
+  margin: 0.2rem;
+}
