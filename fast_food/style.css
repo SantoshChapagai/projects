@@ -11,16 +11,41 @@ body {
 form {
   text-align: center;
   margin: 1rem;
+  background-color: beige;
+  padding: 2rem;
 }
 
 input {
   margin: 0.2rem;
 }
 
-#order {
-  text-align: center;
+.fast_food {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
 }
 
-#order p {
-  margin: 0.2rem;
+.extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.pizza_size,
+.burger_size,
+.fries_size,
+.drinks_pack {
+  display: flex;
+}
+
+/* order section styling */
+#order {
+  width: 60vw;
+  margin: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  padding: 1rem;
 }
